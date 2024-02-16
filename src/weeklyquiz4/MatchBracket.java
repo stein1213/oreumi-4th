@@ -16,11 +16,6 @@ public class MatchBracket {
                 }
             }
         }
-        if (stack.empty()) {
-            return true;
-        } else {
-            return false;
-        }
-
+        return stack.empty();
     }
 }
